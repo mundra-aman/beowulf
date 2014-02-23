@@ -1,6 +1,8 @@
 Beowulf Cluster
 ===============
 
-Setting up a high performance cluster(HPC) system using old PCs and ubuntuOS.
+1.  Setting up a high performance cluster(HPC) system using old PCs and ubuntuOS.
 
-Parallel processing and MPI programming on Linux clusters
+2.  Tuning and managing large beowulf clusters
+
+3.  Parallel processing and MPI programming on Linux clusters
