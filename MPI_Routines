@@ -1,0 +1,17 @@
+
+MPI_Init(&argc, &argv);
+MPI_INIT(ierr);
+
+MPI_Comm_size(MPI_COMM_WORLD, &size);
+MPI_COMM_SIZE(comm, size, ierr);
+
+MPI_Comm_rank(MPI_COMM_WORLD, &taskID);
+MPI_COMM_RANK(comm, rank, ierr);
+
+MPI_Get_processor_name(processor_name, &namelen);
+MPI_GET_PROCESSOR_NAME(name, resultength, ierr);
+
+MPI_Finalize()
+MPI_FINALIZE(ierr)
+
+MPI_MAX_PROCESSOR_NAME

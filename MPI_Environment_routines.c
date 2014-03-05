@@ -1,5 +1,15 @@
- #include "mpi.h"
-   #include <stdio.h>
+/*********************************************************************
+
+ Description : A simple program demonstrating MPI environment Routines
+ Author	   : Amandeep Singh
+ Website	   : http://kodevelop.com/
+ Email	   : aman.adsm@gmail.com
+ github	   : https://github.com/aman-devy
+
+ **********************************************************************/
+
+#include "mpi.h"
+#include <stdio.h>
 
    int main(int argc, char *argv[]) {
    int  numtasks, rank, len, rc;
@@ -19,4 +29,5 @@
    /*******  do some work *******/
 
    MPI_Finalize();
-   }
+
+  }
